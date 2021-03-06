@@ -12,7 +12,7 @@ class Word:
     count: int
     word_len: int
 
-    def __init__(self, word: str, count: int, word_len: word_len):
+    def __init__(self, word: str, count: int, word_len: int):
         self.word = word
         self.count = count
         self.word_len = word_len
