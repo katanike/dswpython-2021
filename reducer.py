@@ -18,17 +18,17 @@ class Word:
         self.word_len = word_len
 
 
-liczniki_slow: Dict[str, Word] = {}
+word_counters: Dict[str, Word] = {}
 
 
 for line in sys.stdin:
     word, count, word_len = parse_line(line.split(sep=","))
 
-    if word in liczniki_slow:
-        liczniki_slow[word].count += count
+    if word in word_counters:
+        word_counters[word].count += count
     else:
-        liczniki_slow[word] = Word(word, count, word_len)
+        word_counters[word] = Word(word, count, word_len)
 
 
-for keyword, word in sorted(liczniki_slow.items()):
+for keyword, word in sorted(word_counters.items()):
     print(keyword, word.count, word.word_len)
