@@ -14,5 +14,5 @@ Obecna zawartość repozytorium jest tymczasowa i będzie uzupełniana w miarę 
 
 ## Logowanie do AWS
 
-
-## Linki
+Adres strony logowania:
+[https://619731119112.signin.aws.amazon.com/console](https://619731119112.signin.aws.amazon.com/console)
