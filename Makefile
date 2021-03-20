@@ -1,5 +1,5 @@
 EC2_SSH_PEM_PATH := ~/.ssh/ds-key-pair.pem
-S3_BUCKET_URI	 := s3://uwm-dswpraktyce-2021
+S3_BUCKET_URI	 := s3://uwm-dswpythonie-2021
 EMR_MASTER_IP 	 := 34.230.25.190
 USER_ID			 := user-01
 ACCOUNT_ID		 := 619731119112
