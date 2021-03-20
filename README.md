@@ -11,3 +11,8 @@ Zawartość poszczególnych folderów:
 
 Obecna zawartość repozytorium jest tymczasowa i będzie uzupełniana w miarę rozwoju zajęć.
 
+
+## Logowanie do AWS
+
+
+## Linki
